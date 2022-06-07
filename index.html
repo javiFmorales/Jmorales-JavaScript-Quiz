@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=".//develop/style.css">
+</head>
+<body>
+
+  <header class="header">
+      <h1>Coding Quiz</h1>
+      <p class="questions">Try to answear these questions correctly!!!</p>
+  </header> 
+
+  <main>
+      <section class="quiz">
+          <div id="questions"></div>
+          <div id="answears"></div>
+      </section>
+
+      <section class="controls">
+          <p>Time Left:<span id="timer">60</span></p>
+          <button class="btn" id="startBtn">START</button>
+      </section>
+
+      <form>
+          <div>score:<span id="finalScore"></span></div>
+          <label for="initials"></label>
+          <input type="text" name="name" id="initials">
+          <button id="submit">submit</button>
+          <span>scores</span>
+          <ol id="scores"></ol>
+      </form>
+  </main>
+  
+<script src=".//develop/javascript.js"></script>
+</body>
+</html>

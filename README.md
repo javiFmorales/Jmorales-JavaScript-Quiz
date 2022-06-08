@@ -3,3 +3,7 @@ On this challenge we were asked to create a JavaScript code quiz which would dis
 if you answear was right then the next question would be displayed.
 once the timer gets to 0 if you had not answear all 5 questions you would have lost and your score would be saved.
 
+
+
+click ont his link to access the deployed webbsite:
+https://javifmorales.github.io/Jmorales-JavaScript-Quiz/
